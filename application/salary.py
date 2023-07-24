@@ -1,0 +1,9 @@
+def calculate_salary(a:int, b:int, sign:str):
+    if sign == '+':
+        return a + b
+    if sign == '-':
+        return a - b
+    if sign == '*':
+        return a * b
+    if sign == '/':
+        return a / b
